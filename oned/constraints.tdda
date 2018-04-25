@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "id": {
+            "type": "int",
+            "max_nulls": 0,
+            "no_duplicates": true
+        },
+        "category": {
+            "type": "string",
+            "max_nulls": 0,
+            "allowed_values": ["AA", "CB", "QT", "KA", "TB"]
+        },
+        "price": {
+            "type": "real",
+            "min": 0.0,
+            "max": 1000.0,
+            "max_nulls": 0
+        }
+    }
+}

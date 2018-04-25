@@ -1,0 +1,30 @@
+{
+    "pmmversion": "0.1",
+    "name": "good_items",
+    "recordcount": 99968,
+    "fieldcount": 3,
+    "fields": [
+        {
+            "name": "id",
+            "type": "integer",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        },
+        {
+            "name": "category",
+            "type": "string",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        },
+        {
+            "name": "price",
+            "type": "real",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        }
+    ],
+    "tags": {}
+}
