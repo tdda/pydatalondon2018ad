@@ -1,0 +1,30 @@
+{
+    "pmmversion": "0.1",
+    "name": "day",
+    "recordcount": 168,
+    "fieldcount": 3,
+    "fields": [
+        {
+            "name": "date",
+            "type": "datestamp",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        },
+        {
+            "name": "actual",
+            "type": "integer",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        },
+        {
+            "name": "expected",
+            "type": "integer",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        }
+    ],
+    "tags": {}
+}

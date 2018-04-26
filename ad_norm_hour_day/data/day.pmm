@@ -1,0 +1,16 @@
+{
+    "pmmversion": "0.1",
+    "name": "day",
+    "recordcount": 16554,
+    "fieldcount": 1,
+    "fields": [
+        {
+            "name": "time",
+            "type": "real",
+            "role": "",
+            "tags": {},
+            "stats": {}
+        }
+    ],
+    "tags": {}
+}
