@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 from pmmif import featherpmm
-from tdda.constraints.pd.constraints import verify_df
+from tdda.constraints.pd.constraints import detect_df
 from tdda.referencetest.checkpandas import default_csv_writer
 
 
@@ -86,8 +86,8 @@ def save_good_records(df):
 
 
 def find_with_tdda(df, show=True):
-    v = verify_df(df, 'constraints.tdda', detect=True,
-                  detect_per_constraint=True, detect_output_fields=[])
+    v = detect_df(df, 'constraints.tdda',
+                  per_constraint=True, output_fields=[])
     bads = v.detected()
     show_df(bads, 'BAD RECORDS (FOUND WITH TDDA)', show, all_cols=True)
     return bads
