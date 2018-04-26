@@ -1,0 +1,9 @@
+Hint: You can use the np.maximum function(df['a'], df['b'])
+      to take the higher of two
+      columns in a DataFrame and the corresponding np.minimum
+      function to take the lower of two columns.
+
+Hint: You can use del df['a'] to delete a column named 'a' from a DataFrame
+
+Hint: You can use np.maximum(df['a'], 0) to replace values
+      in df['a'] with zero.

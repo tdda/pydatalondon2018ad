@@ -1,0 +1,7 @@
+Hint:  You can use numpy's np.logical_or(df['a'], df['b']) function
+
+Hint:  You can compare columns using the ordinary > and < operators.
+
+Hint: You can print a DataFrame directly with Python's built-in print
+      function.
+

@@ -1,0 +1,22 @@
+Hint: You can assign the count the number of times the id occurs
+      to a new column with the following:
+
+      df['id_freq'] = df.groupby('id')['id'].transform('count')
+
+
+Hint: You can use np.logical_and(a, b) to combine two boolean columns
+
+Hint: Use the .isin() method on a string column to check if the string
+      is one from a list given
+
+
+Hint: You can filter a DataFrame with conditions
+      by placing the condition in brackets, e.g. `df[df.a > 1]`
+      or with `df.query('a > 1 or not (b < 2)')`.
+
+
+
+
+
+
+
